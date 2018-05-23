@@ -104,7 +104,7 @@ Puppet::Functions.create_function(:hiera_vault) do
 
       context.explain { "[hiera-vault] Read secret: #{key}" }
       if (options['default_field'] && ['ignore', nil].include?(options['default_field_behavior'])) ||
-         (secret.data.has_key?(options['default_field'].to_sym) && secret.data.length == 1)
+         (options['default_field'] && secret.data.has_key?(options['default_field'].to_sym) && secret.data.length == 1)
 
         return nil if ! secret.data.has_key?(options['default_field'].to_sym)
 

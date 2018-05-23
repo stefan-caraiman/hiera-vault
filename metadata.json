@@ -1,12 +1,12 @@
 {
-  "name": "davealden-hiera_vault",
+  "name": "stefan-caraiman-hiera_vault",
   "version": "0.9.0",
   "author": "Dave Alden",
   "summary": "Hiera 5 backend to query data lookups from vault",
   "license": "Apache 2.0",
-  "source": "http://github.com/davealden/hiera-vault",
-  "project_page": "https://github.com/davealden/hiera-vault",
-  "issues_url": "https://github.com/davealden/hiera-vault/issues",
+  "source": "http://github.com/stefan-caraiman/hiera-vault",
+  "project_page": "https://github.com/stefan-caraiman/hiera-vault",
+  "issues_url": "https://github.com/stefan-caraiman/hiera-vault/issues",
   "operatingsystem_support": [
     {
       "operatingsystem": "Debian",
